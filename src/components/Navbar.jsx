@@ -13,7 +13,7 @@ const Navbar = ({ onSearch }) => {
   return (
     <nav className="bg-gray-900 shadow-md mb-6 fixed top-0 left-0 right-0 z-50">
       <div className="max-w-6xl mx-auto px-4 py-3">
-        <div className="flex flex-row items-center justify-between">
+        <div className="flex flex-row flex-wrap items-center justify-between">
           <div className="flex items-center space-x-4">
             <h1 className="text-2xl font-bold text-white">Task Manager</h1>
           </div>
